@@ -15,7 +15,7 @@ public class Main {
         obj3.readFile1();
         obj3.readFile2();
         Compare2File obj4=new Compare2File();
-
+        obj4.Compare2File();
 
 }
 }

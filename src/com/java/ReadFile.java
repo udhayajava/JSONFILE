@@ -8,7 +8,8 @@ import java.io.*;
 import java.util.Iterator;
 
 public class ReadFile {
-    FileReader fileReader1,fileReader2;
+    FileReader fileReader1;
+    FileReader fileReader2;
     void readFile1() throws IOException, ParseException {
         JSONParser jsonParser1 = new JSONParser();
         this.fileReader1= new FileReader("jsonTest1.json");
